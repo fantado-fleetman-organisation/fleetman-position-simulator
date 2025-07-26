@@ -1,0 +1,75 @@
+# Java build output
+target/
+bin/
+build/
+
+# Logs
+*.log
+logs/
+*.out
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.env
+*.local
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# Package distributions
+*.jar
+*.war
+*.ear
+
+# Generated metadata
+dependency-reduced-pom.xml
+hs_err_pid*
+
+# Test coverage / reports
+jacoco.exec
+coverage/
+test-output/
+surefire-reports/
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# IDE-specific caches
+*.class
+*.swp
+*~
+
+# Node / frontend if included
+node_modules/
+dist/
